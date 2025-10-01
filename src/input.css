@@ -1,1 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
+
+.profile{
+    @apply bg-[rgb(21,77,113)] lg:bg-[rgb(35,147,191)] flex items-center gap-6 px-12 py-8 m-5 mb-0 lg:mb-5 lg:rounded-lg lg:text-shadow-lg/20 lg:shadow-xl/20;
+}
+
+.proclass{
+    @apply hidden lg:block w-24 h-24 rounded-full object-cover;
+}
+
+.proh1{
+    @apply text-white text-xl lg:text-3xl font-bold font-serif;
+}
+
+.proh1class{
+    @apply underline underline-offset-4;
+}
+
+.proh3{
+    @apply text-white text-sm md:text-base font-light;
+}
+
+.description{
+    @apply font-poppins bg-[rgb(21,77,113)] px-12 py-8 m-5 mt-0 lg:rounded-lg lg:text-shadow-lg/20 lg:shadow-xl/20;
+}
+
+.descriptiondivclass{
+    @apply  text-white mb-5 pb-1 text-justify ;
+}
+
+.descriptionpclass{
+    @apply indent-8 lg:text-base/8;
+}
+.about{
+    @apply p-11 m-5 bg-blue-950 lg:rounded-lg shadow-xl;
+}
+
+.abouth1{
+    @apply text-center text-white text-xl font-serif mb-5;
+}
+
+.aboutarticle{
+    @apply grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-3 font-serif;
+}
+.box{
+    @apply flex items-center justify-center gap-2 p-3 bg-white rounded-lg col-span-3 hover:bg-sky-700 text-center;
+}
+
+.gif{
+    @apply w-8 h-8 rounded-full;
+}
